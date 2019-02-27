@@ -1,22 +1,8 @@
 ﻿<Properties StartupConfiguration="{CE5BE577-83BA-4B09-B2E2-60DFF84DE38E}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="StudentsApp/DataSeeding/DataDbInitializer.cs">
     <Files>
-      <File FileName="StudentsApp/Controllers/StudentsController.cs" Line="139" Column="7" />
-      <File FileName="StudentsApp/Program.cs" Line="34" Column="1" />
-      <File FileName="StudentsApp/Startup.cs" Line="38" Column="5" />
-      <File FileName="StudentsApp/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="StudentsApp/appsettings.json" Line="1" Column="1" />
       <File FileName="StudentsApp/ViewModels/FamilyMemberViewModel.cs" Line="9" Column="1" />
-      <File FileName="StudentsApp/ViewModels/NationalityViewModel.cs" Line="1" Column="1" />
-      <File FileName="StudentsApp/ViewModels/StudentViewModel.cs" Line="9" Column="1" />
-      <File FileName="StudentsApp/Models/FamilyMember.cs" Line="18" Column="1" />
-      <File FileName="StudentsApp/Models/StudentFamilyMember.cs" Line="12" Column="1" />
-      <File FileName="StudentsApp/Models/Student.cs" Line="1" Column="1" />
-      <File FileName="StudentsApp/Models/Nationality.cs" Line="1" Column="1" />
-      <File FileName="StudentsApp/Models/MappingProfile.cs" Line="1" Column="1" />
-      <File FileName="StudentsApp/EntityConfigurations/FamilyMemberConfiguration.cs" Line="1" Column="1" />
-      <File FileName="StudentsApp/StudentAppContext.cs" Line="1" Column="1" />
-      <File FileName="StudentsApp/DataSeeding/DataDbInitializer.cs" Line="1" Column="1" />
+      <File FileName="StudentsApp/DataSeeding/DataDbInitializer.cs" Line="17" Column="61" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,6 +13,9 @@
               <Node name="DataSeeding" expanded="True">
                 <Node name="DataDbInitializer.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
             </Node>
           </Node>
         </State>

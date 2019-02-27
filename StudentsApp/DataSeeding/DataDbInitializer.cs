@@ -13,15 +13,16 @@ namespace StudentsApp.DataSeeding
 			{
 				var nationality = new List<Nationality>()
 				{
-					new Nationality(){ NationalityId = 1001, Title = "Ukraine"},
-					new Nationality(){ NationalityId = 1002, Title = "England"},
+					new Nationality(){ NationalityId = 1001, Title = "UAE"},
+					new Nationality(){ NationalityId = 1002, Title = "India"},
+                    new Nationality(){ NationalityId = 1002, Title = "UK"},
 
-				};
+                };
 				var students = new List<Student>()
 				{
-					new Student() {StudentId = 2001, FirstName = "Anton", LastName = "Antonov", DateBirth = new DateTime(1970, 1, 1), NationalityId = 1001},
-					new Student() {StudentId = 2002, FirstName = "Sergey", LastName = "Sergeev", DateBirth = new DateTime(1970, 1, 1), NationalityId = 1001},
-					new Student() {StudentId = 2003, FirstName = "Kirill", LastName = "Kirillov", DateBirth = new DateTime(1970, 1, 1), NationalityId = 1002},
+					new Student() {StudentId = 2001, FirstName = "Jon", LastName = "Legend", DateBirth = new DateTime(1970, 1, 1), NationalityId = 1001},
+					new Student() {StudentId = 2002, FirstName = "Bob", LastName = "Ross", DateBirth = new DateTime(1970, 1, 1), NationalityId = 1001},
+					new Student() {StudentId = 2003, FirstName = "Bradley", LastName = "Cooper", DateBirth = new DateTime(1970, 1, 1), NationalityId = 1002},
 				};
 
 				context.Nationalities.AddRange(nationality);
