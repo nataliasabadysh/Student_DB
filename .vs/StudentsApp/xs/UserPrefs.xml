@@ -2,20 +2,14 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="StudentsApp/DataSeeding/DataDbInitializer.cs">
     <Files>
       <File FileName="StudentsApp/ViewModels/FamilyMemberViewModel.cs" Line="9" Column="1" />
-      <File FileName="StudentsApp/DataSeeding/DataDbInitializer.cs" Line="17" Column="61" />
+      <File FileName="StudentsApp/DataSeeding/DataDbInitializer.cs" Line="22" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StudentsApp" expanded="True">
             <Node name="StudentsApp" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DataSeeding" expanded="True">
-                <Node name="DataDbInitializer.cs" selected="True" />
-              </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="EntityConfigurations" selected="True" />
             </Node>
           </Node>
         </State>

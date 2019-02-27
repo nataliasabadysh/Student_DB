@@ -20,7 +20,7 @@ namespace StudentsApp.Controllers
 		}
 
 		[HttpGet]
-		public async Task<IActionResult> Get()
+		public async Task<IActionResult> GetStudents()
 		{
 			var students = DbContext
 				.Students
@@ -33,7 +33,7 @@ namespace StudentsApp.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Post([FromBody]StudentViewModel model)
+		public async Task<IActionResult> PostStudents([FromBody]StudentViewModel model)
 		{
 			try
 			{
@@ -51,7 +51,7 @@ namespace StudentsApp.Controllers
 		}
 
 		[HttpPut("{studentId}")]
-		public async Task<IActionResult> Put(int studentId, [FromBody]StudentViewModel model)
+		public async Task<IActionResult> PutStudent(int studentId, [FromBody]StudentViewModel model)
 		{
 			try
 			{
